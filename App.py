@@ -12,7 +12,7 @@ st.set_page_config(page_title="Lebanon Tourism Explorer", layout="wide")
 # ----------------------------------------------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Tourism_Lebanon_2023.csv")
+    df = pd.read_csv('/Users/fatimahazime/Desktop/MSBA/MSBA 325/Homework Main/Test/Tourism Lebanon 2023.csv')
 
     # refArea is a long dbpedia/linked-data URL, e.g.
     # "https://dbpedia.org/page/Mount_Lebanon_Governorate"
